@@ -37,7 +37,7 @@ export const getWeather = tool({
     longitude: z.number().optional(),
     city: z
       .string()
-      .describe("City name (e.g., 'San Francisco', 'New York', 'London')")
+      .describe("City name (e.g., 'New York', 'London', 'Tokyo')")
       .optional(),
   }),
   execute: async (input) => {
