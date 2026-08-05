@@ -77,7 +77,8 @@ export default function RootLayout({
           <SessionProvider
             basePath={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/api/auth`}
           >
-            <TooltipProvider>{children}</TooltipProvider>
+            <TooltipProvider>{children}
+            <script src="https://inflight.review/widget.js" data-org="z00y649e" async></script></TooltipProvider>
           </SessionProvider>
         </ThemeProvider>
       </body>
